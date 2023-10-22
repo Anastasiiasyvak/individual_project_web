@@ -7,6 +7,59 @@ body {
     flex-direction: column;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  text-align: center;
+  padding: 50px 10px;
+  color: black;
+  font-size: 90px;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+  transition: 0.5s;
+  background-color: #FFCCCC;
+}
+
+.hover-text {
+  font-size: 20px;
+  margin-left: 20px; 
+  font-family: 'Cormorant Garamond', serif; 
+  font-weight: lighter;
+
+}
+
+.tooltip {
+  display: none;
+  background-color: #000;
+  color: #FFCCCC;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  font-family: 'Cormorant Garamond', serif ;
+
+}
+
+.hover-text:hover + .tooltip {
+  display: block;
+}
+
+
+.headerText {
+  font-family: 'Dancing Script', cursive;
+  font-size: 200px;
+  text-align: center;
+  transition: 0.5s;
+}
+
 .welcome{
     font-size: 50px;
     font-family: 'Dancing Script', cursive;

@@ -11,8 +11,18 @@
 </head>
 <body>
     <div class="main_page">
-        <div class="header"></div>
-        <div class="photos">
+        <div  class="header">
+            <div class="hover-text">
+                <p>Free delivery in Ukraine </p>
+            </div>
+            <div class="tooltip">We deliver perfumes in Ukraine without prepayments and money transfer fees </div>
+            <div>
+                <p id="header" class="headerText">Lusso dei profumi</p>
+            </div>
+            <div>
+            </div>
+        </div>
+        <div style="margin-top:400px;" class="photos">
             <div class="slideshow-container">
 
                 <div class="mySlides fade">
@@ -77,7 +87,7 @@
     
                 </div>
         </div>
-        <div class="description">
+        <div  class="description">
             <p class="welcome">Welcome to our perfume store!</p>
             <p>Here, you will find the best and most diverse fragrances from world-renowned brands. Our extensive selection of perfumes will satisfy every customer's taste.</p>
             <div id="moreText" style="display: none;">
@@ -91,10 +101,10 @@
             <p><a href="javascript:void(0);" id="toggleButton" onclick="toggleText()">Read More</a></p>
             <p><a href="javascript:void(0);" id="hideButton" style="display: none;" onclick="toggleText()">Hide</a></p>            
         </div>
-        <div class="Presented">
+        <div  class="Presented">
             <p>PRESENTED</p>
         </div>
-        <div class="video-container">
+        <div  class="video-container">
             <video class="video" width="1000" height="1300" autoplay muted loop id="video">
                 <source src="video1.mp4">
             </video>
@@ -116,15 +126,15 @@
     <script>
         let slideIndex = 1;
         showSlides(slideIndex);
-        
+
         function plusSlides(n) {
           showSlides(slideIndex += n);
         }
-        
+
         function currentSlide(n) {
           showSlides(slideIndex = n);
         }
-        
+
         function showSlides(n) {
           let i;
           let slides = document.getElementsByClassName("mySlides");
@@ -140,6 +150,7 @@
           slides[slideIndex-1].style.display = "block";  
           dots[slideIndex-1].className += " active";
         }
+
     </script>
 
 </body>

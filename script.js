@@ -25,3 +25,16 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
+
+
+window.onscroll = function() {
+    scrollFunction();
+  };
+  
+  function scrollFunction() {
+    if (window.pageYOffset > 50) {
+      document.getElementById("header").style.fontSize = "30px";
+    } else {
+      document.getElementById("header").style.fontSize = "90px";
+    }
+  }
