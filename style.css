@@ -2,6 +2,42 @@ body {
     background-color: #FFCCCC; 
 }
 
+.main-page{
+    display:flex;
+    flex-direction: column;
+}
+
+.welcome{
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    color: rgb(0, 0, 0);
+
+}
+.description{
+    font-size: 30px;
+    font-family: 'Cormorant Garamond', serif; 
+    font-weight: 400;
+    color: black; 
+    text-align: center;
+
+}
+
+
+#toggleButton, #hideButton {
+    text-decoration: none;
+    color: rgb(112, 108, 108);
+    position: relative;
+    display: inline;
+}
+
+.Presented{
+    text-align:center;
+    margin-top: 300px;
+    font-size: 30px;
+    align-items: center;
+}
+
+
 .video-container{
     display: flex;
     flex-direction: row;
@@ -19,7 +55,6 @@ body {
     font-size: 20px;
     text-align: center;
 }
-
 .learnMore a {
     text-decoration: none;
     color: black; 
@@ -41,3 +76,4 @@ body {
 .learnMore a:hover::after {
     width: 100%;
 }
+
