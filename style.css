@@ -1,0 +1,43 @@
+body {
+    background-color: #FFCCCC; 
+}
+
+.video-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.missDior {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+    text-align: center;
+}
+
+.text1{
+    font-family:  'Cormorant Garamond', cursive;
+    font-size: 20px;
+    text-align: center;
+}
+
+.learnMore a {
+    text-decoration: none;
+    color: black; 
+    position: relative;
+}
+
+.learnMore a::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 0;
+    background-color: #000;
+    transition: width 0.5s;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.learnMore a:hover::after {
+    width: 100%;
+}
