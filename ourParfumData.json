@@ -1,0 +1,237 @@
+[
+    {
+
+        "name": "My way, Armani",
+        "brand": "Armani",
+        "price": 5300,
+        "countryOrigin": "Italy",
+        "image": "armani-my-way.webp",
+        "description": "bergamot, bourbon vanilla, iris, cedar, white musk, tuberose, orange blossom"
+    },
+    {
+        "name": "Si Passione Intense, Armani",
+        "brand": "Armani",
+        "price": 5000,
+        "countryOrigin": "Italy",
+        "image": "armani-si-passione-intense.webp",
+        "description": "rose absolute, vanilla, jasmine, cedar, white musk, black currant"
+    },
+    {
+        "name": "Acqua Di Gioia, Armani",
+        "brand": "Armani",
+        "price": 4300,
+        "countryOrigin": "Italy",
+        "image": "armani-acqua-di-gioia.webp",
+        "description": "cedar, lemon, lemon verbena"
+    },
+    {
+        "name": "Women, Calvin Klein",
+        "brand": "Calvin Klein",
+        "price": 4100,
+        "countryOrigin": "USA",
+        "image": "calvin-klein-women.webp",
+        "description": "woody"
+    },
+
+    {
+        "name": "Euphoria, Calvin Klein",
+        "brand": "Calvin Klein",
+        "price": 3900,
+        "countryOrigin": "USA",
+        "image": "calvin-klein-euphoria.webp",
+        "description": "amber, pomegranate, lotus, mahogany (mahogany), black orchid, whipped cream, black violet, champaca, green accord"
+    },
+
+    {
+        "name": "Everyone, Calvin Klein",
+        "brand": "Calvin Klein",
+        "price": 2100,
+        "countryOrigin": "USA",
+        "image": "calvin-klein-everyone.webp",
+        "description": "aamber, ginger, cedar, musk, patchouli, water notes, tea, orange oil"
+    },
+
+    {
+        "name": "Private Blend Lost Cherry, Tom Ford",
+        "brand": "Tom Ford",
+        "price": 13250,
+        "countryOrigin": "USA",
+        "image": "tom-ford-private-blend-lost-cherry.webp",
+        "description": "tonka bean, clove, plum, sandalwood, Turkish rose, Peruvian balsam, patchouli, liqueur, cinnamon, white cedar, sambac jasmine, cherry, vetiver, vanilla, bitter almond"
+    },
+
+    {
+        "name": "Black Orchid, Tom Ford",
+        "brand": "Tom Ford",
+        "price": 5300,
+        "countryOrigin": "USA",
+        "image": "tom-ford-black-orchid.webp",
+        "description": "vanilla, black orchid, patchouli, sandalwood, truffle"
+    },
+
+    {
+        "name": "Private Blend Bitter Peach, Tom Ford",
+        "brand": "Tom Ford",
+        "price": 13250,
+        "countryOrigin": "USA",
+        "image": "tom-ford-private-blend-bitter-peach.webp",
+        "description": "sweet peach"
+    },
+
+    {
+        "name": "My Burberry Black,Burberry",
+        "brand": "Burberry",
+        "price": 4200,
+        "countryOrigin": "Britain",
+        "image": "burberry-my-burberry-black.webp",
+        "description": "amber, jasmine, patchouli, peach, rose"
+    },
+
+    {
+        "name": "Her,Burberry",
+        "brand": "Burberry",
+        "price": 4200,
+        "countryOrigin": "Britain",
+        "image": "burberry-her.webp",
+        "description": "oriental, fruity"
+    },
+
+    {
+        "name": "Goddess,Burberry",
+        "brand": "Burberry",
+        "price": 4200,
+        "countryOrigin": "Britain",
+        "image": "burberry-goddess.webp",
+        "description": "vanilla, Madagascar vanilla, lavender, woody accords"
+    },
+
+    {
+        "name": "Very Good Girl Glam, Carolina Herrera",
+        "brand": "Carolina Herrera",
+        "price": 5300,
+        "countryOrigin": "Spain",
+        "image": "carolina-herrera-very-good-girl-glam.webp",
+        "description": "vanilla, cherry, rose"
+    },
+
+    {
+        "name": "212 Heroes, Carolina Herrera",
+        "brand": "Carolina Herrera",
+        "price": 5600,
+        "countryOrigin": "Spain",
+        "image": "carolina-herrera-212-heroes.webp",
+        "description": "mandarin, sandalwood"
+    },
+
+
+    {
+        "name": "CH Privee, Carolina Herrera",
+        "brand": "Carolina Herrera",
+        "price": 2500,
+        "countryOrigin": "Spain",
+        "image": "carolina-herrera-ch-privee.webp",
+        "description": "leather, musk, floral bouquet"
+    },
+
+
+    {
+        "name": "Chanel №5, Chanel",
+        "brand": "Chanel",
+        "price": 5000,
+        "countryOrigin": "France",
+        "image": "chanel-n-5.webp",
+        "description": "An aldehyde floral bouquet in an iconic bottle with a minimalist design. A timeless, legendary fragrance"
+    },
+
+    {
+        "name": "Rose N Roses, Dior",
+        "brand": "Dior",
+        "price": 7000,
+        "countryOrigin": "France",
+        "image": "miss_dior.webp",
+        "description": "the herbaceous coolness of geranium essence in the company of sweet Italian mandarin and subtly spicy bergamot"
+    },
+
+    {
+        "name": "J'adore Absolu, Dior",
+        "brand": "Dior",
+        "price": 5400,
+        "countryOrigin": "France",
+        "image": "Absolu_dior.jpg",
+        "description": "Jasmine, Tuberose, Rose"
+    },
+
+    {
+        "name": "Flora Gorgeous Gardenia, Gucci",
+        "brand": "Gucci",
+        "price": 5000,
+        "countryOrigin": "Italy",
+        "image": "gucci-flora-gorgeous-gardenia.webp",
+        "description": "gardenia, pear, patchouli, sugar cane, red berries, red jasmine"
+    },
+
+    {
+        "name": "Bloom, Gucci",
+        "brand": "Gucci",
+        "price": 5000,
+        "countryOrigin": "Italy",
+        "image": "gucci-bloom.webp",
+        "description": "the harmony of tuberose, sambac jasmine and Indian combertum"
+    },
+
+    {
+        "name": "Guilty Pour Femme, Gucci",
+        "brand": "Gucci",
+        "price": 3600,
+        "countryOrigin": "Italy",
+        "image": "gucci-guilty-pour-femme.webp",
+        "description": "mandarin, delicate lilac and a sensual duo of patchouli oils"
+    },
+
+    {
+        "name": "Intense, Dolce & Gabbana",
+        "brand": "Dolce & Gabbana",
+        "price": 4800,
+        "countryOrigin": "Italy",
+        "image": "dolce-gabbana-intense.webp",
+        "description": "oriental, chiffon"
+    },
+
+    {
+        "name": "Dolce, Dolce & Gabbana",
+        "brand": "Dolce & Gabbana",
+        "price": 3600,
+        "countryOrigin": "Italy",
+        "image": "dolce-gabbana-dolce.webp",
+        "description": "a sensual trace of musk and sandalwood"
+    },
+
+    {
+        "name": "Bright Crystal Absolu, Versace",
+        "brand": "Versace",
+        "price": 4100,
+        "countryOrigin": "Italy",
+        "image": "versace-bright-crystal-absolu.webp",
+        "description": "magnolia, peony, yuzu"
+    },
+
+    {
+        "name": "Pour Femme Dylan Purple, Versace",
+        "brand": "Versace",
+        "price": 4900,
+        "countryOrigin": "Italy",
+        "image": "versace-pour-femme-dylan-purple.webp",
+        "description": "orange, bergamot, pear, cedar, freesia"
+    },
+
+    {
+        "name": "Pour Femme Dylan Blue, Versace",
+        "brand": "Versace",
+        "price": 3100,
+        "countryOrigin": "Italy",
+        "image": "versace-pour-femme-dylan-blue.webp",
+        "description": "woody, fruity, chypre"
+    }
+
+]
+

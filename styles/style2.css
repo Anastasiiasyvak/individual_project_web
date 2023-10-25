@@ -1,3 +1,122 @@
+body {
+    background-color: #FFCCCC; 
+    overflow-x: hidden; 
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px 10px; 
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    background-color: #FFCCCC;
+}
+
+.hover-text {
+    font-size: 20px;
+    margin-left: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: lighter;
+}
+
+.tooltip {
+    display: none;
+    background-color: #000;
+    color: #FFCCCC;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Cormorant Garamond', serif;
+}
+
+.hover-text:hover + .tooltip {
+    display: block;
+}
+
+.headerText {
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    text-align: center;
+    color: black; 
+    text-decoration: none; 
+    cursor: pointer; 
+}
+
+.sidepanel  {
+    width: 0;
+    position: fixed;
+    height: 1000px;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 380px;
+    font-family:  'Cormorant Garamond', cursive;
+  }
+  
+  .sidepanel a {
+    padding: 8px 8px 8px 8px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #FFCCCC;
+    display: block;
+    transition: 0.3s;
+    font-family:  'Cormorant Garamond', cursive;
+  
+  }
+  
+  .sidepanel a:hover {
+    color: white;
+  }
+  
+  .sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #FFCCCC;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    color: rgb(112, 108, 108);
+  }
+  
+  .filter {
+    font-family: 'Cormorant Garamond', serif ;
+    background-color: #FFCCCC;
+    padding: 400px 20px 10px; 
+    color: black;
+    font-size: 24px; 
+    font-weight: bold;
+}
+
+.gg-shopping-cart{
+    color: black; 
+    text-decoration: none; 
+    cursor: pointer; 
+}
+
+
 .accordion {
     background-color: #eee;
     color: #444;
@@ -7,8 +126,10 @@
     border: none;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-size: 18px;
     transition: 0.4s;
+    font-family: 'Cormorant Garamond', serif ;
+
   }
   
   .active, .accordion:hover {
@@ -34,3 +155,208 @@
     overflow: hidden;
     transition: max-height 0.2s ease-out;
   }
+
+.buttonn, .butonnn, .buton {
+    align-items: center;
+    background-color: #fee6e3;
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    display: flex;
+    font-family: 'Cormorant Garamond', serif ;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .buttonn:after, .buttonnn:hover, .button:hover {
+    background-color: #111;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+  }
+  
+  .buttonn:hover:after, .button:hover, .buttonnn:hover {
+    transform: translate(0, 0);
+  }
+  
+  .buttonnn:active, .buttonn:hover, .button:hover {
+    background-color: #ffdeda;
+    outline: 0;
+  }
+  
+  .buttonn:hover, .buttonnn:hover, .button:hover {
+    outline: 0;
+  }
+  
+  .input{
+    font-size: 15px;
+    display:block;
+    width:20%;
+    margin:10px 0;
+    padding:10px;
+    border-radius:10px;
+    border: 2px solid #FFCCCC;
+    transition: .3s border-color;
+    text-align: center;
+
+}
+
+.input:hover  {
+    border: 2px solid #9eafaf;
+  }
+
+
+.input:focus{
+    fill:#fff;
+    filter: drop-shadow(0px 3px 8px rgba(0, 0, 0, 0.21));
+    color:#BCBCBC; 
+    outline: none;
+}
+
+
+
+.perfume-image {
+    width: 150px;
+    margin-right: 10px;
+}
+
+.perfume-info h3 {
+    font-size: 20px;
+    margin: 0;
+}
+
+.perfume-info p {
+    margin: 0;
+}
+
+.parfum-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.parfume-item {
+    width: calc(33.33% - 10px); 
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.footer{
+    display: flex;
+    height: 900px;
+    background: black;
+    width: 100%; 
+    color: #FFCCCC;
+    padding: 20px 0;
+    align-items: center;
+    flex-direction: row;
+    padding-left: 20px; 
+    justify-content: space-around;
+    box-sizing: border-box;
+  }
+  
+  
+  .footername{
+    color: #FFCCCC;
+    font-size: 70px;
+    font-family: 'Dancing Script', cursive;
+    align-items: flex-end;
+  }
+  
+  
+  
+  .contacts{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+
+  }
+  
+  .telephone{
+    font-size: 30px;
+  }
+  
+  .icons{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    cursor: pointer;
+  
+  }
+  
+  input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #FFCCCC;
+    color:  #FFCCCC; 
+    background-color: black; 
+    
+  
+  }
+  
+  .emailForm{
+    font-size: 30px;
+    font-family: 'Cormorant Garamond', serif; 
+  }
+  
+  .profile{
+    font-size: 30px;
+    font-family: 'Cormorant Garamond', serif;
+  }
+  
+  .sweep-button {
+    background-color: #FFCCCC;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    transition: background-color 0.3s ease;
+  }
+
+  
+  .sweep-button::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #857f7f;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease;
+    pointer-events: none;
+  }
+  
+  .sweep-button:hover::after {
+    transform: translateX(0);
+  }
+
+
+

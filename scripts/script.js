@@ -28,26 +28,26 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
 window.onscroll = function() {
-    scrollFunction();
-  };
-  
-  function scrollFunction() {
-    if (window.pageYOffset > 50) {
-      document.getElementById("header").style.fontSize = "30px";
-    } else {
-      document.getElementById("header").style.fontSize = "90px";
-    }
+  scrollFunction();
+};
+
+function scrollFunction() {
+  if (window.pageYOffset > 50) {
+    document.getElementById("header").style.fontSize = "30px";
+  } else {
+    document.getElementById("header").style.fontSize = "90px";
   }
+}
 
 
 
-  function openNav() {
-    document.getElementById("mySidepanel").style.width = "250px";
-  }
-  
-  function closeNav() {
-    document.getElementById("mySidepanel").style.width = "0";
-  }
+function openNav() {
+  document.getElementById("mySidepanel").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidepanel").style.width = "0";
+}
 
 
 
@@ -55,7 +55,7 @@ const instagramIcon = document.getElementById("instagram-icon");
 const instagramLink = "https://www.instagram.com/p/CyVc-sVIG6MuxB5M6xLv2QzJjNAefb_MUF9IfA0/?igshid=MzRlODBiNWFlZA==";
 
 instagramIcon.addEventListener("click", function () {
-  window.open(instagramLink, "_blank");
+window.open(instagramLink, "_blank");
 });
 
 
@@ -64,23 +64,23 @@ const facebookLink = "https://uk-ua.facebook.com/";
 const facebookIcon = document.querySelector(".gg-facebook"); 
 
 facebookIcon.addEventListener("click", function () {
-  window.open(facebookLink, "_blank");
+window.open(facebookLink, "_blank");
 });
 
 
 const chanelIcon = document.getElementById("chanel-icon");
 
 chanelIcon.addEventListener("click", function () {
-  const chanelLink = "https://www.chanel.com/#";
-  window.open(chanelLink, "_blank");
+const chanelLink = "https://www.chanel.com/#";
+window.open(chanelLink, "_blank");
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-  const formButton = document.getElementById("formButton");
+const formButton = document.getElementById("formButton");
 
-  formButton.addEventListener("click", function() {
-      window.location.href = "index1.html";
-  });
+formButton.addEventListener("click", function() {
+    window.location.href = "index1.html";
+});
 });
 
 
