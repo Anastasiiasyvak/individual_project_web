@@ -74,3 +74,13 @@ chanelIcon.addEventListener("click", function () {
   const chanelLink = "https://www.chanel.com/#";
   window.open(chanelLink, "_blank");
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  const formButton = document.getElementById("formButton");
+
+  formButton.addEventListener("click", function() {
+      window.location.href = "index1.html";
+  });
+});
+
+

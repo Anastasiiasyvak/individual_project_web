@@ -6,6 +6,7 @@
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/instagram.css' rel='stylesheet'>
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css' rel='stylesheet'>
     <link href='https://unpkg.com/css.gg@2.0.0/icons/css/chanel.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-right.css' rel='stylesheet'>
     <link rel="stylesheet" href="styles/style.css"/>
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
 
@@ -16,9 +17,9 @@
         <div  class="header">
             <div id="mySidepanel" class="sidepanel">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-                <a href="index1.html">women's perfumery</a>
-                <a href="index2.html">men's perfumery </a>
-                <a href="index3.html">niche perfumery </a>
+                <a href="index2.html">women's perfumery</a>
+                <a href="index3.html">men's perfumery </a>
+                <a href="index4.html">niche perfumery </a>
                 <a href="https://open.spotify.com/playlist/35kKMoVL4NDgjuyfYcvGV0?si=62397d414cce41e0"> Spotify  </a>
             </div>
             <div>
@@ -157,9 +158,10 @@
             <div class="footername">
                 <div class="emailForm">
                     <p><b>News from Lusso dei produmi</b></p>
-                    <form>
+                    <form id="emailForm">
                         <label for="email">leave your email </label>
                         <input type="email" id="email" name="email">
+                        <i class="gg-arrow-right" id="submit-icon" style="cursor: pointer;"></i>
                     </form>
                     <br>
                 </div>
@@ -171,7 +173,7 @@
                 <br>
                 <div class="profile">
                     <p>If you want to get a 10% discount on your first order, fill out the form here</p>
-                    <button class="sweep-button">Form</button>
+                    <button class="sweep-button" id="formButton">Form</button>
                 </div>
                 <br>
                 <p>Lusso dei profumi</p>

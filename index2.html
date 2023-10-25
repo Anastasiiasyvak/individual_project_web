@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's parfume|Lusso dei profumi</title>
+    <link rel="stylesheet" href="styles/style2.css">
+</head>
+<body>
+
+    <h2>Parfum Filters</h2>
+    <button class="accordion" id="price-accordion">Price</button>
+    <div class="panel" id="price-panel">
+      <p>
+        From: <input type="number" id="price-min" value="100">
+        To: <input type="number" id="price-max" value="20000">
+        <button onclick="filterParfums()">Filter by the cost</button>
+      </p>
+    </div>
+    
+    <button class="accordion">Brand</button>
+    <div class="panel">
+      <p>
+        <select id="brand-filter">
+          <option value="All">All</option>
+          <option value="Calvin Klein">Calvin Klein</option>
+          <option value="Tom Ford">Tom Ford</option>
+          <option value="Bentley">Bentley</option>
+          <option value="Burberry">Burberry</option>
+          <option value="Carolina Herrera">Carolina Herrera</option>
+          <option value="Versace">Versace</option>
+          <option value="Gucci">Gucci</option>
+          <option value="Dolce & Gabbana">Dolce & Gabbana</option>
+          <option value="Armani">Armani</option>
+          <option value="Chloe">Chloe</option>
+          <option value="Chanel">Chanel</option>
+          <option value="Tiffany">Tiffany</option>
+        </select>
+        <button id="brand-filter-button" onclick="filterParfums()">Filter by brand</button>
+      </p>
+    </div>
+    
+    <button class="accordion" id="country-accordion">Country producer</button>
+    <div class="panel" id="country-panel">
+      <p>
+        <select id="country-filter">
+            <option value="All">All</option>
+            <option value="USA">USA</option>
+            <option value="Italy">Italy</option>
+            <option value="France">France</option>
+            <option value="Britain">Britain</option>
+            <option value="Spain">Spain</option>
+        </select>
+        <button id="country-filter-button" onclick="filterParfums()">Filter by country</button>
+      </p>
+    </div>
+    
+    <div id="parfum-list">
+      <!-- Тут буде список парфумів -->
+    </div>
+    
+      <script src="scripts/script2.js"></script>
+</body>
+</html>
