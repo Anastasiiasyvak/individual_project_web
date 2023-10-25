@@ -1,0 +1,37 @@
+[
+    {
+
+        "name": "My way, Armani",
+        "brand": "Armani",
+        "price": 5300,
+        "countryOrigin": "Italy",
+        "image": "armani-my-way.webp",
+        "description": "bergamot, bourbon vanilla, iris, cedar, white musk, tuberose, orange blossom"
+    },
+    {
+        "name": "Si Passione Intense, Armani",
+        "brand": "Armani",
+        "price": 5000,
+        "countryOrigin": "Italy",
+        "image": "armani-si-passione-intense.webp",
+        "description": "rose absolute, vanilla, jasmine, cedar, white musk, black currant"
+    },
+    {
+        "name": "Acqua Di Gioia, Armani",
+        "brand": "Armani",
+        "price": 4300,
+        "countryOrigin": "Italy",
+        "image": "armani-acqua-di-gioia.webp",
+        "description": "cedar, lemon, lemon verbena"
+    },
+    {
+        "name": "Women, Calvin Klein",
+        "brand": "Calvin Klein",
+        "price": 4100,
+        "countryOrigin": "USA",
+        "image": "calvin-klein-women.webp",
+        "description": "woody"
+    }
+    
+]
+
