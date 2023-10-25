@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Parfum 2",
+        "brand": "Calvin Klein",
+        "price": 900,
+        "countryOrigin": "USA",
+        "image": "https://example.com/images/parfum2.jpg",
+        "description": "Light and fresh fragrance from Calvin Klein."
+    },
+    {
+        "name": "Parfum 1",
+        "brand": "Tom Ford",
+        "price": 1500,
+        "countryOrigin": "Italy",
+        "image": "https://example.com/images/parfum1.jpg",
+        "description": "Enchanting fragrance from Tom Ford's exclusive collection."
+    },
+    {
+        "name": "Parfum 3",
+        "brand": "Versace",
+        "price": 2500,
+        "countryOrigin": "Italy",
+        "image": "https://example.com/images/parfum3.jpg",
+        "description": "Seductive fragrance from Versace for true connoisseurs."
+    },
+    {
+        "name": "Parfum 4",
+        "brand": "Gucci",
+        "price": 4000,
+        "countryOrigin": "Italy",
+        "image": "https://example.com/images/parfum3.jpg",
+        "description": "Seductive fragrance from Versace for true connoisseurs."
+    }
+    
+]
