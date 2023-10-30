@@ -84,7 +84,7 @@ function filterParfums() {
   var brandFilter = document.getElementById("brand-filter").value;
   var countryFilter = document.getElementById("country-filter").value;
 
-  fetch('https://raw.githubusercontent.com/Anastasiiasyvak/individual_project_web/master/ManParfumData.json')
+  fetch('https://raw.githubusercontent.com/Anastasiiasyvak/individual_project_web/master/ManParfumeData.json')
     .then(function (response) {
       if (!response.ok) {
         throw new Error('Data loading error');
