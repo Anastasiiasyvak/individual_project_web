@@ -1,20 +1,247 @@
 [
     {
 
-        "name": "My way, Armani",
-        "brand": "Armani",
-        "price": 5300,
-        "countryOrigin": "Italy",
-        "image": "photos/armani-my-way.webp",
-        "description": "bergamot, bourbon vanilla, iris, cedar, white musk, tuberose, orange blossom"
+        "name": "Bad Boy, CAROLINA HERRERA",
+        "brand": "CAROLINA HERRERA",
+        "price": 3500,
+        "countryOrigin": "Spain",
+        "image": "photos/carolina-herrera-bad-boy.webp",
+        "description": "the nutty caramel nuances of the beans"
     },
     {
-        "name": "Si Passione Intense, Armani",
+        "name": "212 Men, CAROLINA HERRERA",
+        "brand": "CAROLINA HERRERA",
+        "price": 3300,
+        "countryOrigin": "Spain",
+        "image": "photos/carolina-herrera-212-men.webp",
+        "description": "bergamot, grapefruit, ginger, musk, violet"
+    },
+    {
+        "name": "CH Man, CAROLINA HERRERA",
+        "brand": "CAROLINA HERRERA",
+        "price": 3360,
+        "countryOrigin": "Spain",
+        "image": "photos/carolina-herrera-ch-man.webp",
+        "description": "ambergris, woody notes, sugar, saffron, violet, grass, sandalwood, leather"
+    },
+    
+    {
+        "name": "Ethernity for Men, Calvin Klein",
+        "brand": "Calvin Klein",
+        "price": 3200,
+        "countryOrigin": "USA",
+        "image": "photos/calvin-klein-eternity-for-men.webp",
+        "description": "a sensual, refreshing, exciting perfume"
+    },
+
+    {
+        "name": "Defy, Calvin Klein",
+        "brand": "Calvin Klein",
+        "price": 3500,
+        "countryOrigin": "USA",
+        "image": "photos/calvin-klein-defy.webp",
+        "description": "vetiver, suede, mandarin, black pepper"
+    },
+
+    {
+        "name": "Everyone, Calvin Klein",
+        "brand": "Calvin Klein",
+        "price": 2000,
+        "countryOrigin": "USA",
+        "image": "photos/calvin-klein-everyone (1).webp",
+        "description": "The sweet and spicy accords of ginger melded with the oil of orange."
+    },
+
+    {
+        "name": "Stronger With You Only, Armani",
         "brand": "Armani",
-        "price": 5000,
+        "price": 3200,
         "countryOrigin": "Italy",
-        "image": "photos/armani-si-passione-intense.webp",
-        "description": "rose absolute, vanilla, jasmine, cedar, white musk, black currant"
+        "image": "photos/armani-stronger-with-you-only.webp",
+        "description": "bourbon vanilla, geranium, grapefruit, chestnut, lychee, citrus, lavender"
+    },
+
+    {
+        "name": "Prive Vetiver D'Hiver, Armani",
+        "brand": "Armani",
+        "price": 5100,
+        "countryOrigin": "Italy",
+        "image": "photos/armani-prive-vetiver-d-hiver.webp",
+        "description": "bergamot, vetiver, cardamom green, coriander, mandarin, patchouli, citron"
+    },
+
+    {
+        "name": "Prive Rouge Malachite, Armani",
+        "brand": "Armani",
+        "price": 8100,
+        "countryOrigin": "Italy",
+        "image": "photos/armani-prive-rouge-malachite.webp",
+        "description": "quintet of blooming jasmine, intoxicating fleurdorange, intoxicating ylang-ylang"
+    },
+
+    {
+        "name": "Love for him, TIFFANY&CO",
+        "brand": "TIFFANY&CO",
+        "price": 3700,
+        "countryOrigin": "USA",
+        "image": "photos/tiffany-co-love-for-him.webp",
+        "description": "woody, fougere"
+    },
+
+    {
+        "name": "Grey Vetiver, Tom Ford",
+        "brand": "Tom Ford",
+        "price": 5300,
+        "countryOrigin": "USA",
+        "image": "photos/tom-ford-grey-vetiver.webp",
+        "description": "vetiver, grapefruit, nutmeg, flerdorange, sage"
+    },
+
+    {
+        "name": "Private Blend Fabulous, Tom Ford",
+        "brand": "Tom Ford",
+        "price": 13250,
+        "countryOrigin": "USA",
+        "image": "photos/tom-ford-private-blend-fabulous.webp",
+        "description": "warm oriental, spicy and leathery unisex gourmet fragrance"
+    },
+
+    {
+        "name": "Private Blend Ebene Fume, Tom Ford",
+        "brand": "Tom Ford",
+        "price": 9900,
+        "countryOrigin": "USA",
+        "image": "photos/tom-ford-private-blend-ebene-fume.webp",
+        "description": "ebony, wood, incense, black pepper, pine, rose"
+    },
+
+    {
+        "name": "Pour Homme Dylan Blue, Versace",
+        "brand": "Versace",
+        "price": 3400,
+        "countryOrigin": "Italy",
+        "image": "photos/versace-pour-homme-dylan-blue.webp",
+        "description": "ambroxan, aquatic, frankincense (olibanum), black pepper"
+    },
+    
+    {
+        "name": "Eros, Versace",
+        "brand": "Versace",
+        "price": 3500,
+        "countryOrigin": "Italy",
+        "image": "photos/versace-eros.webp",
+        "description": "tonka bean, geranium, mint, citrus, apple"
+    },
+
+    {
+        "name": "Man Eau Fraiche, Versace",
+        "brand": "Versace",
+        "price": 3000,
+        "countryOrigin": "Italy",
+        "image": "photos/versace-man-eau-fraiche.webp",
+        "description": "carambola, cedar, lemon, sage, tarragon"
+    },
+
+    {
+        "name": "Hero, BURBERRY",
+        "brand": "BURBERRY",
+        "price": 3300,
+        "countryOrigin": "Britain",
+        "image": "photos/burberry-hero.webp",
+        "description": "bergamot, cedar, juniper, black pepper"
+    },
+
+    {
+        "name": "Hero, BURBERRY",
+        "brand": "BURBERRY",
+        "price": 3600,
+        "countryOrigin": "Britain",
+        "image": "photos/burberry-hero (1).webp",
+        "description": "notes of pine needles mixed with benzoin and frankincense"
+    },
+
+    {
+        "name": "Mr.Burberry, BURBERRY",
+        "brand": "BURBERRY",
+        "price": 3300,
+        "countryOrigin": "Britain",
+        "image": "photos/burberry-mr-burberry.webp",
+        "description": "ambergris, vetiver, cinnamon, lavender, patchouli, tarragon"
+    },
+
+    {
+        "name": "Sauvage, Dior",
+        "brand": "Dior",
+        "price": 8000,
+        "countryOrigin": "France",
+        "image": "photos/dior-sauvage.webp",
+        "description": "ambergris, grapefruit, cinnamon, lavender, rum, nutmeg"
+    },
+
+    {
+        "name": "Homme, Dior",
+        "brand": "Dior",
+        "price": 6000,
+        "countryOrigin": "France",
+        "image": "photos/dior-homme.webp",
+        "description": "grapefruit, musk"
+    },
+
+    {
+        "name": "K by Dolce & Gabbana, DOLCE & GABBANA",
+        "brand": "DOLCE & GABBANA",
+        "price": 3300,
+        "countryOrigin": "Italy",
+        "image": "photos/dolce-gabbana-k-by-dolce-gabbana.webp",
+        "description": "vetiver, lavandin, clove pepper, spearmint orange"
+    },
+
+    {
+        "name": "The One Grey, DOLCE & GABBANA",
+        "brand": "DOLCE & GABBANA",
+        "price": 2300,
+        "countryOrigin": "Italy",
+        "image": "photos/dolce-gabbana-the-one-grey.webp",
+        "description": "woody, spicy"
+    },
+
+    {
+        "name": "Intenso Pour Homme, DOLCE & GABBANA",
+        "brand": "DOLCE & GABBANA",
+        "price": 2700,
+        "countryOrigin": "Italy",
+        "image": "photos/dolce-gabbana-intenso-pour-homme.webp",
+        "description": "cypress, lavender, frankincense (olibanum), sandalwood, tobacco"
+    },
+    
+    {
+        "name": "Guilty Pour Homme, Gucci",
+        "brand": "GUCCI",
+        "price": 3700,
+        "countryOrigin": "Italy",
+        "image": "photos/gucci-guilty-pour-homme.webp",
+        "description": "orange blossom, cedar, lavender, lemon, patchouli"
+    },
+
+
+    {
+        "name": "Made To Measure Pour Homme, Gucci",
+        "brand": "GUCCI",
+        "price": 3800,
+        "countryOrigin": "Italy",
+        "image": "photos/gucci-made-to-measure-pour-homme.webp",
+        "description": "bergamot, leather, lavender, juniper, plum"
+    },
+
+
+    {
+        "name": "Guilty Love Edition Pour Homme, Gucci",
+        "brand": "GUCCI",
+        "price": 2700,
+        "countryOrigin": "Italy",
+        "image": "photos/gucci-guilty-love-edition-pour-homme.webp",
+        "description": "Ginger, bright tangerine, pink pepper and kumquat intertwine"
     }
+
 
 ]
