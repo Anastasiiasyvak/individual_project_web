@@ -1,4 +1,14 @@
 [
+    
+    {
+        "name": "Rose N Roses, Dior",
+        "brand": "Dior",
+        "price": 7000,
+        "countryOrigin": "France",
+        "image": "photos/miss_dior.webp",
+        "description": "the herbaceous coolness in the company of sweet Italian mandarin"
+    },
+
     {
 
         "name": "My way, Armani",
@@ -6,7 +16,7 @@
         "price": 5300,
         "countryOrigin": "Italy",
         "image": "photos/armani-my-way.webp",
-        "description": "bergamot, bourbon vanilla, iris, cedar, white musk, tuberose, orange blossom"
+        "description": "bergamot, bourbon vanilla, iris, cedar, white musk"
     },
     {
         "name": "Si Passione Intense, Armani",
@@ -39,7 +49,7 @@
         "price": 3900,
         "countryOrigin": "USA",
         "image": "photos/calvin-klein-euphoria.webp",
-        "description": "amber, pomegranate, lotus, mahogany (mahogany), black orchid, whipped cream, black violet, champaca, green accord"
+        "description": "amber, pomegranate, lotus, mahogany (mahogany)"
     },
 
     {
@@ -57,7 +67,7 @@
         "price": 13250,
         "countryOrigin": "USA",
         "image": "photos/tom-ford-private-blend-lost-cherry.webp",
-        "description": "tonka bean, clove, plum, sandalwood, Turkish rose, Peruvian balsam, patchouli, liqueur, cinnamon, white cedar, sambac jasmine, cherry, vetiver, vanilla, bitter almond"
+        "description": "tonka bean, clove, plum, sandalwood, Turkish rose, Peruvian balsam"
     },
 
     {
@@ -140,16 +150,7 @@
         "price": 5000,
         "countryOrigin": "France",
         "image": "photos/chanel-n-5.webp",
-        "description": "An aldehyde floral bouquet in an iconic bottle with a minimalist design. A timeless, legendary fragrance"
-    },
-
-    {
-        "name": "Rose N Roses, Dior",
-        "brand": "Dior",
-        "price": 7000,
-        "countryOrigin": "France",
-        "image": "photos/miss_dior.webp",
-        "description": "the herbaceous coolness of geranium essence in the company of sweet Italian mandarin and subtly spicy bergamot"
+        "description": "An aldehyde floral bouquet in an iconic bottle"
     },
 
     {
