@@ -84,3 +84,26 @@ formButton.addEventListener("click", function() {
 });
 
 
+document.getElementById("submit-icon").addEventListener("click", function() {
+  const email = document.getElementById("email").value;
+  const url = `https://emailvalidation.abstractapi.com/v1/?api_key=336853bb264944ffa8dc47a694dbf8fa&email=${email}`;
+  const xmlHttp = new XMLHttpRequest();
+  xmlHttp.onreadystatechange = function() {
+      if (xmlHttp.readyState === 4) {
+          if (xmlHttp.status === 200) {
+              const response = JSON.parse(xmlHttp.responseText);
+              if (response.is_valid_format.value) {
+                  alert("Email is valid");
+              } else {
+                  alert("Email is invalid");
+              }
+          } else {
+              alert("Error during query execution");
+          }
+      }
+  };
+
+  xmlHttp.open("GET", url, true); 
+  xmlHttp.send();
+});
+

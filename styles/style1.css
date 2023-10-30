@@ -1,15 +1,24 @@
+
+body {
+    background-color: #FFCCCC; 
+    overflow-x: hidden; 
+}
+
 input[type="text"],
 input[type="email"],
 input[type="number"],
 input[type="tel"],
 input[type="password"],
 input[type="range"] {
-    width: 100%;
+    width: 700px;
     padding: 10px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
-    border-radius: 5px;
+    border-radius: 8px;
     transition: border-color 0.3s;
+    border-width: 3px;
+    font-family: 'Cormorant Garamond', serif;
+
 }
 
 input[type="text"]:focus,
@@ -37,3 +46,56 @@ input.success {
 .success-message {
     color: green;
 }
+
+
+.button {
+    align-items: center;
+    background-color: #fee6e3;
+    border: 2px solid #111;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #111;
+    cursor: pointer;
+    display: flex;
+    font-family: 'Cormorant Garamond', serif ;
+    font-size: 16px;
+    height: 48px;
+    justify-content: center;
+    line-height: 24px;
+    max-width: 100%;
+    padding: 0 25px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button:after {
+    background-color: #111;
+    border-radius: 8px;
+    content: "";
+    display: block;
+    height: 48px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    top: -2px;
+    transform: translate(8px, 8px);
+    transition: transform .2s ease-out;
+    z-index: -1;
+  }
+  
+  .button:hover:after{
+    transform: translate(0, 0);
+  }
+  
+  .button:active {
+    background-color: #ffdeda;
+    outline: 0;
+  }
+  
+  .button:hover {
+    outline: 0;
+  }

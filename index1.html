@@ -2,34 +2,44 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style1.css"/>
+    <link rel="stylesheet" href="styles/style1.css"/>
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script> 
     <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script> 
-    <title>Ninth_assignment</title>
+    <title>Form</title>
 </head>
 <body>
-  <form>
-      <div>
-          <label for="userName">Name:</label>
-          <input type="text" name="userName" id="userName" />
-          <span id="userNameError" class="error-message"></span>
-      </div>
-      <div>
-          <label for="userEmail">Email:</label>
-          <input type="email" name="userEmail" id="userEmail" />
-          <span id="userEmailError" class="error-message"></span>
-      </div>
-      <div>
-          <label for="userAge">Your age:</label>
-          <input type="number" name="userAge" id="userAge" />
-          <span id="userAgeError" class="error-message"></span>
-      </div>
-      <div>
-          <label for="userNumber">Phone number:</label>
-          <input type="tel" name="userNumber" id="userNumber" />
-          <span id="userNumberError" class="error-message"></span>
-      </div>
-</form>
+    <form>
+        <div>
+            <label for="userName">Name:</label>
+            <input type="text" name="userName" id="userName" title="Enter your name, e.g., John Doe" />
+            <span id="userNameError" class="error-message"></span>
+        </div>
+        <div>
+            <label for="userLastName">Last Name:</label>
+            <input type="text" name="userLastName" id="userLastName" title="Enter your last name, e.g., Smith" />
+            <span id="userLastNameError" class="error-message"></span>
+        </div>
+        <div>
+            <label for="creditCard">Credit Card:</label>
+            <input type="text" name="creditCard" id="creditCard" title="Enter your 16-digit credit card number" />
+            <span id="creditCardError" class="error-message"></span>
+        </div>
+        <div>
+            <label for="userEmail">Email:</label>
+            <input type="email" name="userEmail" id="userEmail" title="Enter a valid email address" />
+            <span id="userEmailError" class="error-message"></span>
+        </div>
+        <div>
+            <label for="userAge">Your age:</label>
+            <input type="number" name="userAge" id="userAge" title="Enter your age (e.g., 25)" />
+            <span id="userAgeError" class="error-message"></span>
+        </div>
+        <div>
+            <label for="userNumber">Phone number:</label>
+            <input type="tel" name="userNumber" id="userNumber" title="Enter your phone number with digits only" />
+            <span id="userNumberError" class="error-message"></span>
+        </div>
+    </form>
 <div>
     <p>Password should have small and capital letters, numbers and special symbols, min length is 8 symbols</p>
     <form id="passwordForm">
@@ -39,7 +49,7 @@
         <input type="password" id="confirmPassword" required>
         <span id="message" class="error-message"></span>
         <br><br>
-        <input type="submit" value="Submit">
+        <input class="button" type="submit" value="Submit">
     </form>
 </div>
 <script src="scripts/script1.js"></script>

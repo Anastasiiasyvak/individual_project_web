@@ -1,5 +1,5 @@
 [
-    
+
     {
         "name": "Rose N Roses, Dior",
         "brand": "Dior",
@@ -8,6 +8,16 @@
         "image": "photos/miss_dior.webp",
         "description": "the herbaceous coolness in the company of sweet Italian mandarin"
     },
+
+    {
+        "name": "J'adore Absolu, Dior",
+        "brand": "Dior",
+        "price": 5400,
+        "countryOrigin": "France",
+        "image": "photos/Absolu_dior.jpg",
+        "description": "Jasmine, Tuberose, Rose"
+    },
+
 
     {
 
@@ -151,15 +161,6 @@
         "countryOrigin": "France",
         "image": "photos/chanel-n-5.webp",
         "description": "An aldehyde floral bouquet in an iconic bottle"
-    },
-
-    {
-        "name": "J'adore Absolu, Dior",
-        "brand": "Dior",
-        "price": 5400,
-        "countryOrigin": "France",
-        "image": "photos/Absolu_dior.jpg",
-        "description": "Jasmine, Tuberose, Rose"
     },
 
     {

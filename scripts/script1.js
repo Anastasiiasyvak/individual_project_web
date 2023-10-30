@@ -8,6 +8,28 @@ document.getElementById("passwordForm").addEventListener("submit", function (eve
     var userEmail = document.getElementById("userEmail");
     var userAge = document.getElementById("userAge");
     var userNumber = document.getElementById("userNumber");
+    var userLastName = document.getElementById("userLastName");
+    var creditCard = document.getElementById("creditCard");
+
+    if (userLastName.value.trim() === "") {
+        document.getElementById("userLastNameError").textContent = "Enter your last name, please";
+        userLastName.classList.add("error");
+        event.preventDefault();
+    } else {
+        document.getElementById("userLastNameError").textContent = "";
+        userLastName.classList.remove("error");
+        userLastName.classList.add("success");
+    }
+
+    if (!creditCard.value.match(/^\d{16}$/)) {
+        document.getElementById("creditCardError").textContent = "Enter a valid 16-digit credit card number.";
+        creditCard.classList.add("error");
+        event.preventDefault();
+    } else {
+        document.getElementById("creditCardError").textContent = "";
+        creditCard.classList.remove("error");
+        creditCard.classList.add("success");
+    }
   
   
     if (userName.value.trim() === "") {
