@@ -1,0 +1,26 @@
+body {
+    background-color: #FFCCCC; 
+    overflow-x: hidden; 
+}
+
+.header{
+    display: flex;
+}
+.main_page{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.name{
+    display: flex;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+
+.back{
+    font-size: 40px;
+    color: black; 
+    text-decoration: none; 
+    cursor: pointer; 
+}
