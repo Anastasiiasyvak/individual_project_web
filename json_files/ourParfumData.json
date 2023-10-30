@@ -5,7 +5,7 @@
         "brand": "Armani",
         "price": 5300,
         "countryOrigin": "Italy",
-        "image": "individual_project/photos/armani-my-way.webp",
+        "image": "json_files/photos/armani-my-way.webp",
         "description": "bergamot, bourbon vanilla, iris, cedar, white musk, tuberose, orange blossom"
     },
     {
