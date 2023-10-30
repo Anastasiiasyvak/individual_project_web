@@ -1,0 +1,20 @@
+[
+    {
+
+        "name": "My way, Armani",
+        "brand": "Armani",
+        "price": 5300,
+        "countryOrigin": "Italy",
+        "image": "photos/armani-my-way.webp",
+        "description": "bergamot, bourbon vanilla, iris, cedar, white musk, tuberose, orange blossom"
+    },
+    {
+        "name": "Si Passione Intense, Armani",
+        "brand": "Armani",
+        "price": 5000,
+        "countryOrigin": "Italy",
+        "image": "photos/armani-si-passione-intense.webp",
+        "description": "rose absolute, vanilla, jasmine, cedar, white musk, black currant"
+    }
+
+]

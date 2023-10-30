@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/instagram.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/facebook.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/chanel.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/arrow-right.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/shopping-cart.css' rel='stylesheet'>
+    <link href='https://unpkg.com/css.gg@2.0.0/icons/css/heart.css' rel='stylesheet'>  
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet">
+    <title>Men's parfume|Lusso dei profumi</title>
+    <link rel="stylesheet" href="styles/style2.css">
+</head>
+<body>
+  <div class="main_page">
+    <div class="header">
+      <div id="mySidepanel" class="sidepanel">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+          <a href="index.html">main page</a>
+          <a href="index2.html">women's perfumery </a>
+          <a href="https://open.spotify.com/playlist/35kKMoVL4NDgjuyfYcvGV0?si=62397d414cce41e0"> Spotify  </a>
+      </div>
+      <div>
+          <button class="openbtn" onclick="openNav()">☰ More</button>
+      </div>
+      <div>
+          <a href="index.html"><p id="header" class="headerText">Lusso dei profumi</p></a>
+      </div>
+      <div class="hover-text">
+          <p>Free delivery in Ukraine </p>
+      </div>
+      <div class="tooltip">We deliver perfumes in Ukraine without prepayments and money transfer fees </div>
+      <div class="shopping-cart">
+        <a href="index3.html"><i class="gg-shopping-cart"></i></a>
+      </div>
+    </div>
+    <div class="filter">
+      <h2>Parfum Filters</h2>
+      <button class="accordion" id="price-accordion">Price</button>
+      <div class="panel" id="price-panel">
+        <p>
+          From: <input class="input" type="number" id="price-min" value="100">
+          To: <input class="input" type="number" id="price-max" value="20000">
+          <button class="buttonn" onclick="filterParfums()">Filter by the cost</button>
+        </p>
+      </div>
+
+      <button class="accordion">Brand</button>
+      <div class="panel">
+        <p>
+          <select class="input" id="brand-filter">
+            <option value="All">All</option>
+            <option value="Calvin Klein">Calvin Klein</option>
+            <option value="Tom Ford">Tom Ford</option>
+            <option value="Burberry">Burberry</option>
+            <option value="Carolina Herrera">Carolina Herrera</option>
+            <option value="Versace">Versace</option>
+            <option value="Gucci">Gucci</option>
+            <option value="Dolce & Gabbana">Dolce & Gabbana</option>
+            <option value="Armani">Armani</option>
+            <option value="Dior">Dior</option>
+            <option value="Chanel">Chanel</option>
+            <option value="Tiffany">Tiffany</option>
+          </select>
+          <button class="butonnn" id="brand-filter-button" onclick="filterParfums()">Filter by brand</button>
+        </p>
+      </div>
+
+      <button class="accordion" id="country-accordion">Country producer</button>
+      <div class="panel" id="country-panel">
+        <p>
+          <select class="input" id="country-filter">
+              <option value="All">All</option>
+              <option value="USA">USA</option>
+              <option value="Italy">Italy</option>
+              <option value="France">France</option>
+              <option value="Britain">Britain</option>
+              <option value="Spain">Spain</option>
+          </select>
+          <button class="buton" id="country-filter-button" onclick="filterParfums()">Filter by country</button>
+        </p>
+      </div>
+    </div>
+    <div id="favorites-list">
+      <h2>Favorite parfume</h2>
+      <ul id="favorites-items">
+      </ul>
+    </div>
+    <div id="parfum-list" class="parfum-list">
+    </div>
+    <div class="footer">
+      <div class="contacts">
+          <p><b>Contact</b></p>
+          <p class="telephone"><b>0965478960</b></p>
+          <p>info@lussodeiprofumi.com</p>
+          <br>
+          <p><b>Working hours</b></p>
+          <br>
+          <p>The online store is open around the clock</p>
+          <p>Manager in touch Mon-Sun from 09.00 to 23.00</p>
+          <p>Care Department Mon-Fri from 09:00 to 18:00</p>
+          <br>
+          <p>For ordering and consultation:</p>
+          <p>0965478960</p>
+          <br>
+          <p>Leave a request for cooperation: </p>
+          <p>380736587347</p>
+          <br>
+          <p>Department of care</p>
+          <p>0736587347</p>
+          <p>customercare@lussodeiprofumi.com</p>
+          <p>Telegram chat of the Lusso dei profumi Care Department</p>
+      </div>
+      <div class="footername">
+          <div class="emailForm">
+              <p><b>News from Lusso dei produmi</b></p>
+              <form id="emailForm">
+                  <label for="email">leave your email </label>
+                  <input type="email" id="email" name="email">
+                  <i class="gg-arrow-right" id="submit-icon" style="cursor: pointer;"></i>
+              </form>
+              <br>
+          </div>
+          <div class="icons">
+              <i class="gg-instagram" id="instagram-icon"></i>
+              <i class="gg-facebook"></i>
+              <i class="gg-chanel" id="chanel-icon"></i>
+          </div>
+          <br>
+          <div class="profile">
+              <p>If you want to get a 10% discount on your first order, fill out the form here</p>
+              <button class="sweep-button" id="formButton">Form</button>
+          </div>
+          <br>
+          <p>Lusso dei profumi</p>
+      </div>
+  </div>
+  </div>
+      <script src="scripts/script4.js"></script>
+</body>
+</html>
