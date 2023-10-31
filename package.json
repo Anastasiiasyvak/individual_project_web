@@ -1,0 +1,23 @@
+{
+  "name": "individual_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "devDependencies": {
+    "chai": "^4.3.10",
+    "mocha": "^10.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anastasiiasyvak/individual_project_web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anastasiiasyvak/individual_project_web/issues"
+  },
+  "homepage": "https://github.com/Anastasiiasyvak/individual_project_web#readme"
+}
